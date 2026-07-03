@@ -4,7 +4,7 @@ public class arrivallogs {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
-        ArrayList<Integer> arr1 = new ArrayList<>();
+        ArrayList<Integer> arr1 = new ArrayList<>();  //O(N)
         for(int i=0; i<n; i++) {
         arr1.add(sc.nextInt()); //taking ip from user
         }
